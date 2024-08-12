@@ -77,11 +77,11 @@
   
   button {
     margin-top: 24px;
-    border: none;
     background-color: var(--shade);
     color: var(--text);
+    border: none;
     border-radius: 12px;
-    padding: 2px 18px;
+    padding: 12px 18px;
     font: var(--font);
     font-size: 1rem;
     cursor: pointer;
