@@ -79,6 +79,7 @@
     margin-top: 24px;
     border: none;
     background-color: var(--shade);
+    color: var(--text);
     border-radius: 12px;
     padding: 2px 18px;
     font: var(--font);
