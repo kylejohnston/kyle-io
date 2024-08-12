@@ -30,9 +30,9 @@
   body {
     background: var(--color);
     color: var(--text);
-    font: italic 1.5rem "IBM Plex Mono", sans-serif;
+    font: italic 1.25rem "IBM Plex Mono", sans-serif;
     font-weight: 400;
-    line-height: 170%;
+    line-height: 135%;
   }
 
   section {
@@ -127,6 +127,9 @@
   }
   
   @media (min-width: 1024px) /* DESKTOP */ {
+    body {
+      font: italic 1.5rem "IBM Plex Mono", sans-serif;
+    }
     .wrapper {
       max-width: 1100px;
     }
