@@ -160,9 +160,9 @@
   }
   
   .vert .card {
-    height: calc(100% - 12px);
+    height: 98%;
   }
-  
+
   .horz .card {
     width: calc(100% - 12px);
     height: calc(100% + 8px);
