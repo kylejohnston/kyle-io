@@ -1,13 +1,13 @@
 @layer reset, theme, layout;
 
 @layer reset {
-  *,
-  *::before,
-  *::after {
+  html {
     box-sizing: border-box;
-    margin: 0;
   }
-  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+    
   body {
     margin: 0;
   }
