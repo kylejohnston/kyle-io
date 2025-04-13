@@ -185,6 +185,7 @@
   .content p {
     max-width: 26ch;
     margin: 0 auto;
+    text-wrap: balance;
   }
   
   .overflow {
