@@ -127,6 +127,10 @@
     }
     .wrapper {
       max-width: 1480px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    section.intro {
+      grid-column: 1 / -1;
     }
   }
   
