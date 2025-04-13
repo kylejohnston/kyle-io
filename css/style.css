@@ -121,12 +121,12 @@
     }
   }
   
-  @media (min-width: 1024px) /* DESKTOP */ {
+  @media (min-width: 1200px) /* DESKTOP */ {
     body {
       font: italic 1.5rem "IBM Plex Mono", sans-serif;
     }
     .wrapper {
-      max-width: 1100px;
+      max-width: 1480px;
     }
   }
   
